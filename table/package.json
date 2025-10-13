@@ -1,0 +1,56 @@
+{
+  "name": "@gaddario98/react-table",
+  "version": "1.0.O",
+  "main": "index.ts",
+  "module": "index.ts",
+  "type": "module",
+  "types": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-strip": "^3.0.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/rollup-plugin-peer-deps-external": "^2",
+    "rollup": "^4.40.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "@gaddario98/react-state": "*",
+    "@tanstack/react-table": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "i18next": "*",
+    "react": "*",
+    "react-i18next": "*"
+  },
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaddario98/react-table"
+  },
+  "keywords": [
+    "react",
+    "base-ui",
+    "ui",
+    "table",
+    "component-library"
+  ],
+  "author": "Giosuè Addario",
+  "bugs": {
+    "url": "https://github.com/gaddario98/react-table/issues"
+  },
+  "homepage": "https://github.com/gaddario98/react-table#readme"
+}

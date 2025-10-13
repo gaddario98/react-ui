@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@source "../";
+@custom-variant dark (&:where(.dark, .dark *));
+
+#header-section-mobile {
+  display: none;
+}
+#menu-toggle:checked ~ #header-section-mobile {
+  display: block;
+}
