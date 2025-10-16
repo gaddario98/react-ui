@@ -55,6 +55,12 @@
       "require": "./dist/index.js",
       "default": "./dist/index.js"
     },
+    "./lib": {
+      "types": "./dist/lib/index.d.ts",
+      "import": "./dist/lib/index.mjs",
+      "require": "./dist/lib/index.js",
+      "default": "./dist/lib/index.js"
+    },
     "./table": {
       "types": "./dist/table/index.d.ts",
       "import": "./dist/table/index.mjs",
